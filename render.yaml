@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: daily-ranking-2026-05-13
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: ./docs
