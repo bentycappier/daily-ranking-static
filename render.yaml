@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: daily-ranking-2026-05-13
+    name: daily-ranking-top-app-ad-cloud
     runtime: static
     buildCommand: "true"
     staticPublishPath: ./docs
