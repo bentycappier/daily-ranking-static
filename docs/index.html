@@ -37656,9 +37656,9 @@
       ].sort();
       hqFilter.innerHTML = [
         '<option value="all">All HQ</option>',
-        '<option value="highlight-blue">Blue highlighted</option>',
+        '<option value="highlight-blue">Company HQ = Campaign region</option>',
         '<option value="highlight-green">Company HQ in EMEA</option>',
-        '<option value="highlight-red">Red highlighted</option>',
+        '<option value="highlight-red">Company HQ in CN</option>',
         ...values.map((value) => `<option value="${value}">${value}</option>`),
       ].join("");
       hqFilter.value = activeHq;
