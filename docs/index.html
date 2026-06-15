@@ -37671,6 +37671,7 @@
         const marketHidden = activeMarket !== "all" && row.dataset.market !== activeMarket;
         const hqHidden =
           activeHq !== "all" &&
+          activeHq !== row.dataset.hq &&
           activeHq !== row.dataset.hqGroup &&
           activeHq !== `highlight-${row.dataset.highlight}` &&
           !(activeHq === "highlight-green" && row.dataset.emea === "true");
